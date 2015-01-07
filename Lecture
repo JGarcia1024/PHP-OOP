@@ -1,0 +1,132 @@
+class Kitten{
+		class small
+		class baby
+		class adorable
+}
+
+class Friend{
+	class friend
+	class awesome
+	class funny
+}
+
+class Bunny{
+	class fast
+	class brown
+	class herbivore
+}
+
+
+
+
+$kitten1 = new Kitten();
+$kitten2 = new Kitten();
+$kitten3 = new Kitten();
+
+
+
+
+class Kitten{
+	public $size = "small";
+	public $age = "newborn";
+	public $looks = "adorable";
+	public $color = "white";
+}
+
+class Friend{
+	public $name = "Douglas";
+	public $race = "Guateamalan";
+	public $traits = "funny";
+	public $gender = "male";
+}
+
+class Bunny{
+	public $speed = "fast";
+	public $color = "brown";
+	public $fur = "soft";
+	public $habitat "forest";
+}
+
+
+
+
+$kitten1 = new Kitten();
+print $kitten1->name;
+
+$kitten2 = new Kitten();
+print $kitten2->name;
+
+$kitten2 = new Kitten();
+print $kitten2->name;
+
+
+
+
+public function myFriend(  $funny, $awesome ) {
+	//idk
+}
+
+public function myMom(  $family, $old ) {
+	//idk
+}
+
+public function myTeacher(  $Iwao, $codes ) {
+	//idk
+}
+
+
+
+
+class Kitten{
+	public $firstName = "Arnold";
+	public $lastName = "Shwarzenegger";
+	public $gender = "male";
+	public $size = "size";
+
+	function getName() {
+		return "{$this->firstName}";
+		"{$this->lastName}";
+	}
+}
+
+$kitten1 = new Kitten();
+$kitten1->firstName = "Arnold";
+$kitten1->lastName = "Shwarzenegger";
+
+print "The dog's name is{$kitten1->getName()}";
+
+class Kitten{
+	public $firstName = "Joshua";
+	public $lastName = "Garcia";
+	public $gender = "male";
+	public $size = "size";
+
+	function getName() {
+		return "{$this->firstName}";
+		"{$this->lastName}";
+	}
+}
+
+$kitten2 = new Kitten();
+$kitten2->firstName = "Joshua";
+$kitten2->lastName = "Garcia";
+
+print "The dog's name is{$kitten2->getName()}";
+
+class Kitten{
+	public $firstName = "Cara";
+	public $lastName = "Delevingne";
+	public $gender = "female";
+	public $size = "size";
+
+	function getName() {
+		return "{$this->firstName}";
+		"{$this->lastName}";
+	}
+}
+
+$kitten3 = new Kitten();
+$kitten3->firstName = "Arnold";
+$kitten3->lastName = "Shwarzenegger";
+
+print "The dog's name is{$kitten3->getName()}";
